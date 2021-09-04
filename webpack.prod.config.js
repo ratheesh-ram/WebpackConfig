@@ -3,6 +3,7 @@ console.log(process.env.NODE_ENV);
 const path = require("path");
 const htmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 module.exports = {
     mode: "production",
     target: "browserslist", //browserslist - for production , web for development
